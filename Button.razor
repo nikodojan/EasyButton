@@ -1,0 +1,45 @@
+﻿<button type="@Type.ToLower()" 
+        class="button btn-@Color.ToLower()  @Corners.ToLower()  @CssClass" 
+        style="@Style"
+        @onclick="(() => OnClick.InvokeAsync())">
+    @ChildContent
+</button>
+
+@code {
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnClick { get; set; }
+
+    /// <summary>
+    /// Type of the button: submit(default), button, reset.
+    /// </summary>
+    [Parameter]
+    public string? Type { get; set; } = "submit";
+
+    /// <summary>
+    /// Color of the button: blue(default), green, yellow, red, blue-outline, green-outline, yellow-outline, red-outline.
+    /// </summary>
+    [Parameter]
+    public string? Color { get; set; } = "blue";
+
+    /// <summary>
+    /// Translates to HTML "class" attribute.
+    /// </summary>
+    [Parameter]
+    public string? CssClass { get; set; } = "";
+
+    /// <summary>
+    /// Translates to HTML "style" attribute.
+    /// </summary>
+    [Parameter]
+    public string? Style { get; set; } = "";
+
+    /// <summary>
+    /// Sets the border-radius: leave empty for default (4px), noradius, rounded.
+    /// </summary>
+    [Parameter]
+    public string? Corners { get; set; } = "";
+
+}
