@@ -8,6 +8,7 @@ EasyButton contains button components for Blazor, which make it easier to use ma
 ## How can it be used?
 
 You can download it as a NuGet package and reference it in your Blazor project.
+https://www.nuget.org/packages/EasyButton/
 
 Then you simply use it like other components.
 
