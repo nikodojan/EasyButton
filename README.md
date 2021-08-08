@@ -3,7 +3,7 @@ Buttons Component for Blazor
 
 ## What is EasyButton?
 
-EasyButton contains button components for Blazor, which make it easier to use material design icons as button icons.
+EasyButton contains button components for Blazor, which make it easier to use material design icons as button icons. It uses (requires) Bootstrap for the design.
 
 ## How can it be used?
 
@@ -20,7 +20,7 @@ Then you simply use it like other components.
 
 ## Why use it?
 
-The design is not special, it looks like Bootstrap. But the IconButton makes it easier to use material design.
+The design is not special (uses Bootstrap). But the IconButton makes it easier to use material design icons.
 You simply copy and paste the icon span between the button tags.
 
 ## Layout examples:
@@ -52,9 +52,8 @@ For both types there is a number of attributes that can be used to change the bu
 | Attribute  | Description | Values |
 | ------------- | ------------- |------------- |
 | **Type**  | Translates to **type** attribute of an HTML button  |submit, reset, button. Default value is submit|
-| **Color**  | Defines the color and style of the button. Currently available colors: blue, green, yellow, red. Each color has an outline version. |blue, blue-outline, green, green-outline, yellow, yellow-outline, red, red-outline.|
 | **Corners** | Sets the corner type, default value is 4 px | noradius - for sharp corners; round - for round edges; leave out for default |
-| **CssClass** | Translates to the HTML **class** attribute | |
+| **CssClass** | Translates to the HTML **class** attribute. Use Bootstrap classes here | e.g. "btn-outline-danger" |
 | **Style** | Translates to the HTML **style** attribute | |
 | **OnClick** | Replaces the @onclick="" attribute, but is used the same way: OnClick="EventHandlerMethod" | Name of the event handler method |
 
