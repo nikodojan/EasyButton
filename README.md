@@ -1,4 +1,4 @@
-# EasyButton
+# EasyButton v.1.0.1
 Buttons Component for Blazor
 
 ## What is EasyButton?
@@ -73,3 +73,8 @@ To use material icons follow the Developer guide: https://developers.google.com/
 **Event handling**:
 
 The button is compatible with the click event. It can be invoked using **OnClick** attribute.
+
+**Version notes**
+v.1.0.1 - 08.08.2021
+I removed my own button classes, it was a failure. 
+Use Bootstrap classes insted. Remember to remove the Color attributes from the code.
