@@ -1,5 +1,5 @@
 ﻿<button type="@Type.ToLower()" 
-        class="button btn-@Color.ToLower()  @Corners.ToLower()  @CssClass" 
+        class="btn @Corners.ToLower() @CssClass" 
         style="@Style"
         @onclick="(() => OnClick.InvokeAsync())">
     @ChildContent
@@ -17,12 +17,6 @@
     /// </summary>
     [Parameter]
     public string? Type { get; set; } = "submit";
-
-    /// <summary>
-    /// Color of the button: blue(default), green, yellow, red, blue-outline, green-outline, yellow-outline, red-outline.
-    /// </summary>
-    [Parameter]
-    public string? Color { get; set; } = "blue";
 
     /// <summary>
     /// Translates to HTML "class" attribute.

@@ -2,16 +2,22 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <ApplicationIcon />
+    <ApplicationIcon>appicon.ico</ApplicationIcon>
     <OutputType>Library</OutputType>
     <StartupObject />
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Description>Buttons Component for Blazor.
-EasyButton contains button components for Blazor, which make it easier to use material design icons as button icons.
-
-</Description>
+EasyButton contains button components for Blazor, which make it easier to use material design icons as button icons. Uses Bootstrap design.</Description>
     <Copyright>2021 Niko Dojan</Copyright>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/dojo85/EasyButton</RepositoryUrl>
+    <PackageTags>button buttons iconbutton icons material design blazor component</PackageTags>
+    <PackageId>EasyButton</PackageId>
+    <Authors>Niko Dojan</Authors>
+    <Company />
+    <SignAssembly>false</SignAssembly>
+    <DelaySign>false</DelaySign>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   
