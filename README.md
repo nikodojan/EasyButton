@@ -46,7 +46,7 @@ To use the buttons in your pages you have two possibilities
 ```
 
 For both types there is a number of attributes that can be used to change the button's appearance.
-Use Bootstrap btn- classes to change the colors.
+Use Bootstrap btn- classes to change the colors. The button already contains the "btn" class. It only requires the btn- +color class.
 
 **Attributes for (standard) Button:**
 
