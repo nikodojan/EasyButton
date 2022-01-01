@@ -1,9 +1,12 @@
+**Since Bootstrap released their own set of icons and Bootstrap 5, their buttons work very well with icons now. Thus, this component is not longer required or maintained.**
+
 # EasyButton v.1.0.1
 Buttons Component for Blazor
 
 ## What is EasyButton?
 
 EasyButton contains button components for Blazor, which make it easier to use material design icons as button icons. It uses (requires) Bootstrap for the design.
+
 
 ## How can it be used?
 
